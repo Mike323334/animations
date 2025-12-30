@@ -1,0 +1,4 @@
+- [x] Create CombinedAnimation.tsx component that combines all existing animations
+- [x] Create CombinedAnimation.css for styling
+- [ ] Update App.tsx to include 'combined' in animation type and render CombinedAnimation component
+- [ ] Update OptionBar.tsx to add Combined Animation button and update types

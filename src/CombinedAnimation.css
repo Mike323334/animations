@@ -1,0 +1,29 @@
+.combined-animation {
+    position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: transparent;
+}
+
+.layer {
+  position: absolute;
+  inset: 0;
+}
+
+.layer.aurora { z-index: 1; }
+.layer.lightning { z-index: 2; }
+.layer.balls { z-index: 3; }
+.layer.matrix { z-index: 4; }
+.layer.fireworks { z-index: 5; }
+.layer.galaxy { z-index: 6; }
+.layer.particle { z-index: 7; }
+.layer.wave { z-index: 8; }
+
+.lightning {
+  z-index: 10;
+}
+
+.snowfall   { z-index: 9; }
+
